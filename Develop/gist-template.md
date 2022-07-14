@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# ReGex Tutorial
 
 Regular Expressions or "ReGex" is a sequence of meta characters that indicate a certain pattern. The patterns can be a various mix of letters, numbers and symbols.
 
@@ -27,8 +27,10 @@ Matches: joe@aol.com
 ## Regex Components
 
 ### Anchors
-The beginning of a string starts with a <code>^</code> and the end of the string is a <code>$</code>
+The beginning of a string starts with a caret<code>^</code> and the end of the string is a dollar sign<code>$</code>
+
 ### Quantifiers
+Quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found.
 
 ### OR Operator
 
@@ -50,4 +52,6 @@ The beginning of a string starts with a <code>^</code> and the end of the string
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My Name is Trevor Mangahas and I am a student from THE Ohio State University. I am new to coding but looking to improve in any way possible.
+https://github.com/trevormangahas
+
