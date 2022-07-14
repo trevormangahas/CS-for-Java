@@ -1,10 +1,14 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+Regular Expressions or "ReGex" is a sequence of meta characters that indicate a certain pattern. The patterns can be a various mix of letters, numbers and symbols.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A RegEx for email uses meta characters to encode the input address.
+
+Ex: ^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$
+
+Matches: joe@aol.com
 
 ## Table of Contents
 
@@ -23,7 +27,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-
+The beginning of a string starts with a <code>^</code> and the end of the string is a <code>$</code>
 ### Quantifiers
 
 ### OR Operator
